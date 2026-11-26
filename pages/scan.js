@@ -34,10 +34,10 @@ export default function ScanPage() {
     }
 
     setLastCustomer(updated);
-   setStatus(Point added! Total: ${updated.points}); 
+   setStatus("Point added! Total: " + updated.points);
   }
 
-egg  useEffect(() => {
+  useEffect(() => {
     if (scannerRef.current) return;
 
     const scanner = new Html5QrcodeScanner(
