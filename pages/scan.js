@@ -37,7 +37,7 @@ export default function ScanPage() {
     setStatus(تمت إضافة نقطة واحدة بنجاح! المجموع الآن: ${updated.points});
   }
 
-  useEffect(() => {
+egg  useEffect(() => {
     if (scannerRef.current) return;
 
     const scanner = new Html5QrcodeScanner(
