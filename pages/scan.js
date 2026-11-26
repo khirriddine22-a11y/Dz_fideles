@@ -34,7 +34,7 @@ export default function ScanPage() {
     }
 
     setLastCustomer(updated);
-    setStatus(تمت إضافة نقطة واحدة بنجاح! المجموع الآن: ${updated.points});
+   setStatus(Point added! Total: ${updated.points}); 
   }
 
 egg  useEffect(() => {
